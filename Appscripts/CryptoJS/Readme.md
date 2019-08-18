@@ -14,3 +14,10 @@ Arguments:
 Name	Type	Description
 message	Object	
 pass	Object
+
+
+Example:
+function myFunction() {
+  Logger.log(CryptoJS.AES_Encrypt('Thử code CryptoJS', 'ongtrieuhau'));
+  Logger.log(CryptoJS.AES_Decrypt('U2FsdGVkX1/oEZq4XP+BZw/kjK+QEaq7M6ysUf+5Yung1K5Ce7OP/issOCmLMFXU', 'ongtrieuhau'));
+}
